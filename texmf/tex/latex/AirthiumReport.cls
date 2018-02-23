@@ -14,7 +14,7 @@
 \RequirePackage{hyperref}
 
 %Geometry
-\geometry{top=3cm, bottom=3cm, right=3cm, left=3cm}
+\geometry{a4paper}
 
 %Confidential
 \definecolor{Red}{rgb}{1, 0.3, 0.3}
@@ -35,7 +35,7 @@
 \fancypagestyle{plain}{
 	\fancyhead{}
 	\fancyfoot{}
-	\setlength\headheight{35pt}
+	\setlength\headheight{40pt}
 	\renewcommand{\headrulewidth}{0pt}
 	\fancyhead[C]{\transparent{0.5}\includegraphics[height=30pt]{logo.png}}
 	\fancyfoot[L]{\thepage}
